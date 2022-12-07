@@ -165,7 +165,7 @@ header a:hover{
 
 
 /*-------------- @media-queries-------------*/
-@media (min-width: 700px){
+@media (min-width: 480px){
     header{
         position: fixed;
         width: 100%;
