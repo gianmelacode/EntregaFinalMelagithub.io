@@ -27,6 +27,7 @@ ul{ list-style: none;}
 }
 
 header{
+    top: 0;
     background-color: rgb(227, 226, 226);
 }
 
