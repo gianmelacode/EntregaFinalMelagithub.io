@@ -211,7 +211,7 @@ header a:hover{
         background-image: linear-gradient(
             0deg, 
             rgba(0,0,0,0.1),
-            rgba(0,0,0,0.1)), url(/imagenes/imagenes-inicio/WhatsApp\ Image\ 2022-12-05\ at\ 13.16.06.jpeg);
+            rgba(0,0,0,0.1)), url(../imagenes/imagenes-inicio/WhatsApp\ Image\ 2022-12-05\ at\ 13.16.06.jpeg);
             background-size: cover;
             background-position: center center;
             height: 200px;
