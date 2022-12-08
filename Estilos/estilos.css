@@ -291,16 +291,17 @@ header a:hover{
 
 /*-------------- HTML OBRAS-------------*/
 
+@media (min-width: 720px) {
+    #header-obras{
+        position: relative;
+    }
+}
+
 /* ------------HTML SOBRE NOSOTROS ----------*/
+
 @media (min-width: 720px){
 
     #header-sobre-nos{
-        position: relative;
-    }
-    #header-contact{
-        position: relative;
-    }
-    #header-login-clients{
         position: relative;
     }
     #header-sobre-nos .container{
@@ -308,6 +309,35 @@ header a:hover{
         justify-content: space-between;
     }
     #header-sobre-nos nav{
+        flex-direction: row;
+        padding-right: 20px;
+    }
+
+/*---------- HTML CONTACTO-------- */
+
+@media (min-width: 720px){
+
+    #header-contact{
+        position: relative;
+    }
+    #header-contact .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #header-contact nav{
+        flex-direction: row;
+        padding-right: 20px;
+    }
+}
+/*-------- ACCESO CLIENTES ----------- */
+    
+@media (min-width: 720px){
+    
+    #header-login-clients .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #header-login-clients nav{
         flex-direction: row;
         padding-right: 20px;
     }
