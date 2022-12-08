@@ -288,25 +288,28 @@ header a:hover{
 /*-------------- HTML OBRAS-------------*/
 
 @media (min-width: 720px) {
+    
     #header-obras{
         position: relative;
+        width: 100%;
     }
     #header-obras .container{
         flex-direction: row;
         justify-content: space-between;
     }
     #header-obras nav{
-        flex-direction: column;
+        flex-direction: row;
         padding-right: 20px;
     }
 }
 
 /* ------------HTML SOBRE NOSOTROS ----------*/
 
-@media (min-width: 720px){
+@media (min-width: 720px) {
 
     #header-sobre-nos{
         position: relative;
+        width: 100%;
     }
     #header-sobre-nos .container{
         flex-direction: row;
@@ -316,13 +319,15 @@ header a:hover{
         flex-direction: row;
         padding-right: 20px;
     }
+}
 
 /*---------- HTML CONTACTO-------- */
 
-@media (min-width: 720px){
+@media (min-width: 720px) {
 
     #header-contact{
         position: relative;
+        width: 100%;
     }
     #header-contact .container{
         flex-direction: row;
@@ -337,6 +342,10 @@ header a:hover{
     
 @media (min-width: 720px){
 
+    #header-login-clients {
+        position: relative;
+        width: 100%;
+    }
     #header-login-clients .container{
         flex-direction: row;
         justify-content: space-between;
