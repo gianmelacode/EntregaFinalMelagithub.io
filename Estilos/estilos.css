@@ -147,21 +147,21 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.3)
-     ),url(/PreEntrega1-MELA/Imagenes/imagenes-inicio/1.jpg);
+     ),url(/imagenes/imagenes-inicio/1.jpg);
 }
 .carta:nth-child(2){
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.3)
-     ),url(/PreEntrega1-MELA/Imagenes/imagenes-inicio/2.png);
+     ),url(/imagenes/imagenes-inicio/2.png);
 }
 .carta:nth-child(3){
     background-image:linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.3)
-     ), url(/PreEntrega1-MELA/Imagenes/imagenes-inicio/concesionaria.png);
+     ), url(/imagenes/imagenes-inicio/concesionaria.png);
 }
 
 
@@ -200,7 +200,7 @@ header a:hover{
         background-image: linear-gradient(
             0deg, 
             rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)), url(/PreEntrega1-MELA/Imagenes/imagenes-inicio/vision1.jpeg);
+            rgba(0,0,0,0.5)), url(/imagenes/imagenes-inicio/vision1.jpeg);
             background-size: cover;
             background-position: center center;
             height: 350px;
@@ -211,7 +211,7 @@ header a:hover{
         background-image: linear-gradient(
             0deg, 
             rgba(0,0,0,0.1),
-            rgba(0,0,0,0.1)), url(/PreEntrega1-MELA/Imagenes/imagenes-inicio/WhatsApp\ Image\ 2022-12-05\ at\ 13.16.06.jpeg);
+            rgba(0,0,0,0.1)), url(/imagenes/imagenes-inicio/WhatsApp\ Image\ 2022-12-05\ at\ 13.16.06.jpeg);
             background-size: cover;
             background-position: center center;
             height: 200px;
