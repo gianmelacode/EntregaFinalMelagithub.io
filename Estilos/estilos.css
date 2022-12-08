@@ -179,7 +179,7 @@ header a:hover{
         flex-direction: row;
         padding-right: 20px;
     }
-    #vision-empresa .container{
+    #vision-empresa .container{ 
         display: flex;
         justify-content: space-evenly;
     }
@@ -303,6 +303,15 @@ header a:hover{
     #header-login-clients{
         position: relative;
     }
+    #header-sobre-nos .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #header-sobre-nos nav{
+        flex-direction: row;
+        padding-right: 20px;
+    }
+
 }
 
 /*-------------- FOOTER-------------*/
