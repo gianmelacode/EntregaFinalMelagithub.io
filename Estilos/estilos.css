@@ -292,7 +292,7 @@ header a:hover{
         position: relative;
     }
     #header-obras .container{
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
     }
     #header-obras nav{
