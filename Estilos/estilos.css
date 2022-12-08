@@ -295,6 +295,14 @@ header a:hover{
     #header-obras{
         position: relative;
     }
+    #header-obras .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #header-obras nav{
+        flex-direction: row;
+        padding-right: 20px;
+    }
 }
 
 /* ------------HTML SOBRE NOSOTROS ----------*/
@@ -332,7 +340,7 @@ header a:hover{
 /*-------- ACCESO CLIENTES ----------- */
     
 @media (min-width: 720px){
-    
+
     #header-login-clients .container{
         flex-direction: row;
         justify-content: space-between;
