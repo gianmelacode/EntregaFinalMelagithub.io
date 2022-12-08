@@ -14,6 +14,11 @@ body {
     background-color: rgb(238, 238, 238);
     font-family: 'Roboto', sans-serif;
 }
+
+.body-obras{
+    margin-top: 20%;
+}
+
 h1{font-size: 30px;}
 h2{font-size: 20px;}
 h3{font-size: 25px;}
@@ -37,7 +42,17 @@ header .logo{
     font-weight: bold;
     color: rgb(206, 137, 8); 
     font-size: 2em; 
+    animation: scale-up-center 2s infinite alternate ;
 }
+@keyframes scale-up-center {
+    0% {
+              transform: scale(0.9);
+    }
+    100% {
+              transform: scale(1);
+    }
+  }
+
 
 header .container{
     display: flex;
@@ -67,6 +82,38 @@ header a{
 header a:hover{
     color: orange;
 }
+main img{   
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 8px 10px 15px 2px rgba(0,0,0,0.42);
+}
+.img-container  {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    max-width: 900px;
+}
+.main-obras h2{
+    text-align: center;
+    padding: 15px;
+}
+.main-obras h3{
+    text-align: center;
+    padding: 20px 20px;
+}
+.main-obras p{
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 15px;
+    
+}
+
 /*-------------- INICIO DE MAIN-------------*/
 
 #carta-presentacion{
@@ -165,8 +212,140 @@ header a:hover{
 }
 
 
+
+
+/*--------------CLIENTES-------------*/
+.contenedor{
+    width: 80%;
+    margin: auto;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+
+}
+.grid img{
+    width: 100%;
+    height: auto;
+}
+    
+/*-------------- CEO-------------*/
+
+#final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(212, 212, 212);
+}
+#final h4{
+    font-size: 25px;
+}
+
+/*-------------- HTML OBRAS-------------*/
+#desarrollo-inm {
+    display: flex;  
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #d4d4d4;
+     margin: auto;
+    
+     
+}
+#desarrollo-inm .container{
+    text-align: center;
+    padding: 15px 12px;
+    flex-direction: row;
+  
+    margin: 10px;
+
+}
+#desarrollo-inm .rubros{
+    display: flex;
+    align-items: center;
+    
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+.galeria-proyect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.galeria-proyect h3{
+    text-align: center;
+}
+.galeria-proyect p{
+    text-align: center;
+    margin: 10px;
+}
+.galeria-proyect img{
+    margin: 0;
+    display: inline-block;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* ------------HTML SOBRE NOSOTROS ----------*/
+
+/*---------- HTML CONTACTO-------- */
+
+/*-------- ACCESO CLIENTES ----------- */
+    
+/*-------------- FOOTER-------------*/
+
+footer{
+    background-color: rgb(230, 230, 230);
+    height: auto;
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ }
+ footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+ }
+ .botonInicio{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+ }
+ button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(214, 190, 153);
+    color: white;
+    text-decoration: none;
+ }
+ button:hover{
+    background-color: rgb(231, 150, 11);
+}
+
 /*-------------- @media-queries-------------*/
 @media (min-width: 720px){
+    body{
+        margin-top: 7%;
+    }
     header{
         position: fixed;
         width: 100%;
@@ -247,167 +426,18 @@ header a:hover{
     #obras-rec h3{
         margin-top: 0px;
     }
-
-
-
-}
-
-/*--------------CLIENTES-------------*/
-.contenedor{
-    width: 80%;
-    margin: auto;
-
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-
-}
-.grid img{
-    width: 100%;
-    height: auto;
-}
     
-/*-------------- CEO-------------*/
-
-#final{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    background-color: rgb(212, 212, 212);
-}
-#final h4{
-    font-size: 25px;
-}
-
-/*-------------- HTML OBRAS-------------*/
-#desarrollo-inm {
-    display: flex;  
-    height: 70vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    background-color: rgb(136, 145, 154);
-     margin: auto;
-     border: 5px solid red;
-     
-}
-#desarrollo-inm .container{
-    text-align: center;
-    padding: 15px 12px;
-    flex-direction: row;
-    border: 1px solid blue;
-    margin: 10px;
-
-}
-#desarrollo-inm .rubros{
-    display: flex;
-    align-items: center;
-    border: 1px solid green;
-    margin: auto;
-    padding: 20px;
-    max-width: 600px;
-}
-.galeria-proyectos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-@media (min-width: 720px) {
+    .galeria-proyect{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     #desarrollo-inm .rubros{
         height: 200px;
         justify-content: space-evenly;
         align-items:initial;
         max-width: 600px;
     }
-    #header-obras{
-        position: relative;
-        width: 100%;
-    }
-    #header-obras .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    #header-obras nav{
-        flex-direction: row;
-        padding-right: 20px;
-    }
 }
-
-/* ------------HTML SOBRE NOSOTROS ----------*/
-
-@media (min-width: 720px) {
-
-    #header-sobre-nos{
-        position: relative;
-        width: 100%;
-    }
-    #header-sobre-nos .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    #header-sobre-nos nav{
-        flex-direction: row;
-        padding-right: 20px;
-    }
-}
-
-/*---------- HTML CONTACTO-------- */
-
-@media (min-width: 720px) {
-
-    #header-contact{
-        position: relative;
-        width: 100%;
-    }
-    #header-contact .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    #header-contact nav{
-        flex-direction: row;
-        padding-right: 20px;
-    }
-}
-/*-------- ACCESO CLIENTES ----------- */
-    
-@media (min-width: 720px) {
-
-    #header-login-clients {
-        position: relative;
-        width: 100%;
-    }
-    #header-login-clients .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    #header-login-clients nav{
-        flex-direction: row;
-        padding-right: 20px;
-    }
-
-}
-
-/*-------------- FOOTER-------------*/
-
-footer{
-    background-color: rgb(230, 230, 230);
-    height: auto;
-}
-footer .container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
- }
- footer p{
-    margin: 0;
-    padding: 12px;
-    color: rgb(100, 100, 100);
- }
+ 
