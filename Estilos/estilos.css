@@ -80,7 +80,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.5)
-     ), url(/imagenes/imagenes-inicio/concesionaria.png);
+     ), url(../imagenes/imagenes-inicio/concesionaria.png);
      background-position: center center;
      background-size: cover;
      background-repeat: no-repeat;
