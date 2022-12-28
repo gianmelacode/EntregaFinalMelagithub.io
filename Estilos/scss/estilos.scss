@@ -377,6 +377,13 @@ button:hover{
     text-align: center;
     align-items: center;
 }
+.acceso-clients{
+    h1{
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+}
     
 /*-------------- FOOTER-------------*/
 
@@ -524,6 +531,13 @@ footer .container{
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+    }
+    .acceso-clients{
+        h1{
+            text-align: center;
+            margin-top: 30px;
+            padding-bottom: 30px;
+        }
     }
 }
 

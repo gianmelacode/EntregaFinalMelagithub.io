@@ -425,35 +425,42 @@ button:hover {
   align-items: center;
 }
 
+/* line 381, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+.acceso-clients h1 {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
 /*-------------- FOOTER-------------*/
-/* line 383, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+/* line 390, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
 footer {
   background-color: #e6e6e6;
   height: auto;
 }
 
-/* line 387, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+/* line 394, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
 footer .container {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-/* line 392, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+/* line 399, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
 footer p {
   margin: 0;
   padding: 12px;
   color: #646464;
 }
 
-/* line 397, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+/* line 404, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
 .botonInicio {
   display: flex;
   justify-content: center;
   margin: 35px;
 }
 
-/* line 402, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+/* line 409, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
 button {
   font-size: 1em;
   font-weight: bold;
@@ -468,31 +475,31 @@ button {
 
 /*-------------- @media-queries-------------*/
 @media (min-width: 720px) {
-  /* line 417, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 424, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   body {
     margin-top: 7%;
   }
-  /* line 420, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 427, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   header {
     position: fixed;
     width: 100%;
   }
-  /* line 424, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 431, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   header .container {
     flex-direction: row;
     justify-content: space-between;
   }
-  /* line 428, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 435, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   header nav {
     flex-direction: row;
     padding-right: 20px;
   }
-  /* line 432, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 439, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #vision-empresa .container {
     display: flex;
     justify-content: space-evenly;
   }
-  /* line 436, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 443, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #vision-empresa .texto {
     width: 50%;
     max-width: 600px;
@@ -502,11 +509,11 @@ button {
     flex-direction: column;
     justify-content: center;
   }
-  /* line 445, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 452, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #vision-empresa h2 {
     margin-top: 0px;
   }
-  /* line 449, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 456, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #vision-empresa .img-container {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagenes/imagenes-inicio/vision1.jpeg);
     background-size: cover;
@@ -515,7 +522,7 @@ button {
     width: 350px;
     margin: 0;
   }
-  /* line 460, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 467, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #final .img-container {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../imagenes/imagenes-inicio/yo.jpeg);
     background-size: cover;
@@ -524,12 +531,12 @@ button {
     width: 180px;
     margin: auto;
   }
-  /* line 472, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 479, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #final .container {
     display: flex;
     justify-content: space-evenly;
   }
-  /* line 476, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 483, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #final .ceo {
     width: 50%;
     max-width: 600px;
@@ -539,39 +546,39 @@ button {
     flex-direction: column;
     justify-content: center;
   }
-  /* line 485, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 492, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #obras-rec .proyectos {
     display: flex;
     justify-content: center;
   }
-  /* line 490, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 497, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #obras-rec p {
     display: block;
     margin-bottom: 30px;
   }
-  /* line 494, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 501, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #obras-rec .carta {
     padding: 50px;
   }
-  /* line 497, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 504, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #obras-rec h3 {
     margin-top: 0px;
   }
-  /* line 501, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 508, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   .galeria-proyect {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  /* line 507, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 514, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #desarrollo-inm .rubros {
     height: 200px;
     justify-content: space-evenly;
     align-items: initial;
     max-width: 600px;
   }
-  /* line 514, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 521, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   .iframe-maps {
     display: flex;
     justify-content: center;
@@ -580,11 +587,17 @@ button {
     width: 600px;
     height: 600px;
   }
-  /* line 523, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  /* line 530, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
   #desarrollo-inm {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+  }
+  /* line 536, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  .acceso-clients h1 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
