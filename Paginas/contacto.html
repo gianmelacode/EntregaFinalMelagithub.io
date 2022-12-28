@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="telefono de constructoras, calculista, construccion,ubicacion, obra civil, calculos, contactanos "/>
+    <meta name="description" content="Comunicate con nosotros a traves de nuestros medios"/>
     <title>Document</title>
-    <link rel="stylesheet" href="../Estilos/estilos.css" />
+    <link rel="stylesheet" href="../Estilos/css/estilos.css" />
   </head>
   <body>
     <!--INICIO DE HEADER-->
@@ -24,36 +26,44 @@
     </header>
 
     <main>
+      <section class="registro-de-contacto">
+        <h1>Contacto</h1>
+        <form action="https://formspree.io/f/mdojprey" method="post">
+          <fieldset>
+            <legend>Queremos conocerte!</legend>
 
-      <h1>Contacto</h1>
-      <form action="https://formspree.io/f/mdojprey" method="post">
-        <fieldset>
-          <legend>Queremos conocerte!</legend>
+            <section class="datos-input">
+              <div class="name-input">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" />
+              </div>
+
+              <div class="email-input">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+              </div>
+            </section>
+          </fieldset>
           <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" />
+            <label for="">Comentarios</label><br />
+            <textarea name="comentarios"></textarea>
           </div>
 
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
-          </div>
-        </fieldset>
-        <div>
-          <label for="">Comentarios</label><br />
-          <textarea name="comentarios"></textarea>
-        </div>
+          <input type="submit" value="Consultar" />
+        </form>
+      </section>
 
-        <input type="submit" value="Consultar" />
-      </form>
-      <br />
-      <p>►Nuestro horario de atencion es de 8:00am-17:00pm (horario corrido)</p>
-      <p>
-        ►No encontramos en chile 6001. Posadas, Misiones. Oficinas de G.N.
-        PROYECTOS
-      </p>
+      <section class="info-local">
+        <p>
+          ►Nuestro horario de atencion es de 8:00am-17:00pm (horario corrido)
+        </p>
+        <p>
+          ►No encontramos en chile 6001. Posadas, Misiones. Oficinas de G.N.
+          PROYECTOS
+        </p>
+      </section>
 
-      <section>
+      <div class="iframe-maps">
         <!--IFRAME-->
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56677.447870992146!2d-55.95962117344919!3d-27.39630500636295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be7f080496c3%3A0xccbff374623e7b9a!2sPosadas%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1668476875889!5m2!1ses-419!2sar"
@@ -62,15 +72,17 @@
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-          >Posadas</iframe>
-      </section>
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+          >Posadas</iframe
+        >
+      </div>
 
-      <section class="botonInicio">
+      <div class="botonInicio">
         <button>
           <a href="../index.html">Volver al inicio</a>
         </button>
-      </section>
+      </div>
     </main>
 
     <footer>
@@ -81,5 +93,6 @@
         </p>
       </div>
     </footer>
+    
   </body>
 </html>

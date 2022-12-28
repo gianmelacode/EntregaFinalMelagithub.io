@@ -32,18 +32,20 @@ ul{ list-style: none;}
 }
 
 header{
+
     top: 0;
     background-color: rgb(227, 226, 226);
+
+    .logo{
+        margin: 0;
+        padding: 25px 30px;
+        font-weight: bold;
+        color: rgb(206, 137, 8); 
+        font-size: 2em; 
+        animation: scale-up-center 2s infinite alternate ;
+    }
 }
 
-header .logo{
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: rgb(206, 137, 8); 
-    font-size: 2em; 
-    animation: scale-up-center 2s infinite alternate ;
-}
 @keyframes scale-up-center {
     0% {
               transform: scale(0.9);
@@ -54,33 +56,34 @@ header .logo{
   }
 
 
-header .container{
+header {
+
+    .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 5px;
+        justify-content: space-evenly;
+        
+    }
+    a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        
+    }
+    a:hover{
+        color: rgb(237, 186, 18);
+    }
 
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin: 5px;
-    justify-content: space-evenly;
-    
-}
 
-header a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    
-}
-
-header a:hover{
-    color: rgb(237, 186, 18);
 }
 main img{   
     width: 95%;
@@ -99,21 +102,23 @@ main img{
     padding: 10px;
     max-width: 900px;
 }
-.main-obras h2{
+.main-obras{
+
+     h2{
     text-align: center;
     padding: 15px;
+    }
+    h3{
+        text-align: center;
+        padding: 20px 20px;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        padding: 15px 15px;
+        
+    }
 }
-.main-obras h3{
-    text-align: center;
-    padding: 20px 20px;
-}
-.main-obras p{
-    text-align: center;
-    font-size: 15px;
-    padding: 15px 15px;
-    
-}
-
 /*-------------- INICIO DE MAIN-------------*/
 
 #carta-presentacion{
@@ -127,25 +132,27 @@ main img{
         0deg,
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.5)
-     ), url(../imagenes/imagenes-inicio/concesionaria.png);
+     ), url(../../imagenes/imagenes-inicio/concesionaria.png);
      background-position: center center;
      background-size: cover;
      background-repeat: no-repeat;
      margin: 10px 5px;
 }
-#carta-presentacion h1{
-    color: aliceblue;
-}
-#carta-presentacion h3{
-    color: aliceblue;
-    font-weight: normal;
-}
-#carta-presentacion h4{
-    color: orange;
-    font-weight: bold;
-    font-size: 1.2em;
-}
+#carta-presentacion{
 
+    h1{
+    color: aliceblue;
+    }
+    h3{
+        color: aliceblue;
+        font-weight: normal;
+    }
+    h4{
+        color: orange;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+}
 /*-------------- INICIO DE VISION EMPRESARIAL-------------*/
 
 #vision-empresa{
@@ -155,10 +162,11 @@ main img{
     text-align: center;
     flex-direction: column;
     background-color: rgb(212, 212, 212);
-}
-#vision-empresa .container{
-    text-align: center;
-    padding: 15px 12px;
+
+    .container{
+        text-align: center;
+        padding: 15px 12px;
+    }
 }
 
 /*-------------- INICIO DE PROYECTOS RECIENTES-------------*/
@@ -168,7 +176,8 @@ main img{
     text-align: center;
 
 }
-#obras-rec .container{
+#obras-rec 
+    .container{
     padding: 100px 15px;
 }
 #obras-rec h2{
@@ -194,21 +203,21 @@ main img{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.3)
-     ),url(../imagenes/imagenes-inicio/1.jpg);
+     ),url(../../imagenes/imagenes-inicio/1.jpg);
 }
 .carta:nth-child(2){
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.3)
-     ),url(../imagenes/imagenes-inicio/2.png);
+     ),url(../../imagenes/imagenes-inicio/2.png);
 }
 .carta:nth-child(3){
     background-image:linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.3)
-     ), url(../imagenes/imagenes-inicio/concesionaria.png);
+     ), url(../../imagenes/imagenes-inicio/concesionaria.png);
 }
 
 button a {
@@ -261,47 +270,57 @@ button:hover{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-color: #d4d4d4;
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)), url(../../imagenes/imagenes-background/pres2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
      margin: auto;
-    
+     color: white;
      
 }
-#desarrollo-inm .container{
+#desarrollo-inm {
+
+    .container{
+        display: flex;
     text-align: center;
     padding: 15px 12px;
-    flex-direction: row;
-  
+    flex-direction: column;  
     margin: 10px;
+    }
+
+    .rubros{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        max-width: 600px;
+    }
 
 }
-#desarrollo-inm .rubros{
-    display: flex;
-    align-items: center;
-    
-    margin: auto;
-    padding: 20px;
-    max-width: 600px;
-}
 .galeria-proyect{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-}
-.galeria-proyect h3{
-    text-align: center;
-}
-.galeria-proyect p{
-    text-align: center;
-    margin: 10px;
-}
-.galeria-proyect img{
-    margin: 0;
-    display: inline-block;
-    padding: 15px;
-    display: flex;
-    align-items: center;
+    h3{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+    
+    img{
+        margin: 0;
+        display: inline-block;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+    }
 }
 
 /* ------------HTML SOBRE NOSOTROS ----------*/
@@ -310,16 +329,59 @@ button:hover{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin: auto;
+    max-width: 1000px;
+
 }
 
 /*---------- HTML CONTACTO-------- */
+.registro-de-contacto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+.iframe-maps{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 390px;
+    margin-left: 18px;
+
+}
+.info-local{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.datos-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
 
 /*-------- ACCESO CLIENTES ----------- */
+.ingreso-clientes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
     
 /*-------------- FOOTER-------------*/
 
 footer{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(230,230,230);
     height: auto;
 }
 footer .container{
@@ -388,7 +450,7 @@ footer .container{
         background-image: linear-gradient(
             0deg, 
             rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)), url(../imagenes/imagenes-inicio/vision1.jpeg);
+            rgba(0,0,0,0.5)), url(../../imagenes/imagenes-inicio/vision1.jpeg);
             background-size: cover;
             background-position: center center;
             height: 350px;
@@ -399,7 +461,7 @@ footer .container{
         background-image: linear-gradient(
             0deg, 
             rgba(0,0,0,0.1),
-            rgba(0,0,0,0.1)), url(../imagenes/imagenes-inicio/WhatsApp\ Image\ 2022-12-05\ at\ 13.16.06.jpeg);
+            rgba(0,0,0,0.1)), url(../../imagenes/imagenes-inicio/yo.jpeg);
             background-size: cover;
             background-position: center center;
             height: 200px;
@@ -410,7 +472,7 @@ footer .container{
     #final .container{
         display: flex;
         justify-content: space-evenly;
-    }
+    }   
     #final .ceo{
         width: 50%;
         max-width: 600px;
@@ -448,5 +510,21 @@ footer .container{
         align-items:initial;
         max-width: 600px;
     }
+    // CONTACTO
+    .iframe-maps{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+        width: 600px;
+        height: 600px;
+    }
+    //OBRAS
+    #desarrollo-inm{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
 }
+
  
