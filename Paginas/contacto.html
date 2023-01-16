@@ -13,7 +13,7 @@
     <!--INICIO DE HEADER-->
     <header>
       <div class="container">
-        <p class="logo">GN-Proyectos</p>
+        <p class="logo"><span class="gnblack">GN</span>-Proyectos</p>
         <nav>
           <!--Navegadores-->
           <a href="../index.html">Inicio</a>
@@ -26,57 +26,18 @@
     </header>
 
     <main>
-      <section class="registro-de-contacto">
-        <h1>Contacto</h1>
-        <form action="https://formspree.io/f/mdojprey" method="post">
-          <fieldset>
-            <legend>Queremos conocerte!</legend>
-
-            <section class="datos-input">
-              <div class="name-input">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" />
-              </div>
-
-              <div class="email-input">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" />
-              </div>
-            </section>
-          </fieldset>
-          <div>
-            <label for="">Comentarios</label><br />
-            <textarea name="comentarios"></textarea>
-          </div>
-
-          <input type="submit" value="Consultar" />
-        </form>
+      <section class="form-contact">
+        <h4>Datos de contacto</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="tex" name="consulta" id="consulta" placeholder="Consulta">
+        <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+        
+        <input class="registro" type="submit" value="Enviar">
+        
       </section>
 
-      <section class="info-local">
-        <p>
-          ►Nuestro horario de atencion es de 8:00am-17:00pm (horario corrido)
-        </p>
-        <p>
-          ►No encontramos en chile 6001. Posadas, Misiones. Oficinas de G.N.
-          PROYECTOS
-        </p>
-      </section>
-
-      <div class="iframe-maps">
-        <!--IFRAME-->
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56677.447870992146!2d-55.95962117344919!3d-27.39630500636295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be7f080496c3%3A0xccbff374623e7b9a!2sPosadas%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1668476875889!5m2!1ses-419!2sar"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-          >Posadas</iframe
-        >
-      </div>
+      
 
       <div class="botonInicio">
         <button>

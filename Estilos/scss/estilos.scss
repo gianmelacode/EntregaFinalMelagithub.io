@@ -23,7 +23,7 @@ h1{font-size: 30px;}
 h2{font-size: 20px;}
 h3{font-size: 25px;}
 ul{ list-style: none;}
-.color{ color: orange;}
+.color{ color: #21d109;}
 
 /*-------------- INICIO DE HEADER-------------*/
 .container{
@@ -40,11 +40,16 @@ header{
         margin: 0;
         padding: 25px 30px;
         font-weight: bold;
-        color: rgb(206, 137, 8); 
+        color: rgb(27, 123, 22); 
         font-size: 2em; 
         animation: scale-up-center 2s infinite alternate ;
     }
+    .gnblack{
+        color: black;
+    }
 }
+
+// ANIMACION
 
 @keyframes scale-up-center {
     0% {
@@ -80,7 +85,7 @@ header {
         
     }
     a:hover{
-        color: rgb(237, 186, 18);
+        color: rgb(57, 170, 26);
     }
 
 
@@ -110,12 +115,16 @@ main img{
     }
     h3{
         text-align: center;
-        padding: 20px 20px;
+        padding: 15px;
     }
     p{
         text-align: center;
         font-size: 15px;
         padding: 15px 15px;
+        max-width: 780px;
+        margin: auto;
+        font-weight: bold;
+        
         
     }
 }
@@ -130,7 +139,7 @@ main img{
     flex-direction: column;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.6),
         rgba(0,0,0,0.5)
      ), url(../../imagenes/imagenes-inicio/concesionaria.png);
      background-position: center center;
@@ -139,6 +148,7 @@ main img{
      margin: 10px 5px;
 }
 #carta-presentacion{
+    line-height: 50px;
 
     h1{
     color: aliceblue;
@@ -148,7 +158,7 @@ main img{
         font-weight: normal;
     }
     h4{
-        color: orange;
+        color: #39aa1a;
         font-weight: bold;
         font-size: 1.2em;
     }
@@ -225,10 +235,8 @@ button a {
     color: white;
 }
 button:hover{
-    background-color: rgb(233, 132, 0);
+    background-color: rgb(38, 192, 21);
 }
-
-/*--------------CLIENTES-------------*/
 .contenedor{
     width: 80%;
     margin: auto;
@@ -247,7 +255,41 @@ button:hover{
     width: 100%;
     height: auto;
 }
-    
+/*--------------CLIENTES-------------*/
+.form-contact{
+    width: 360px;
+    background: #819f83c2;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(36, 95, 40);
+    box-shadow: 7px 13px 37px #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+      }
+      a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
+      a:hover {
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+      }
+}
+
 /*-------------- CEO-------------*/
 
 #final{
@@ -255,6 +297,8 @@ button:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 10px;
+    padding-top: 0%;
     flex-direction: column;
     background-color: rgb(212, 212, 212);
 }
@@ -293,8 +337,9 @@ button:hover{
     .rubros{
         display: flex;
         align-items: center;
-        margin: auto;
-        max-width: 600px;
+        margin-bottom: 25px;
+        max-width: 400px;
+        line-height: 20px;
     }
 
 }
@@ -330,19 +375,38 @@ button:hover{
     flex-direction: column;
     text-align: center;
     margin: auto;
-    max-width: 1000px;
+    margin-top: 25px;
+    max-width: 780px;
+    
+    h1{margin-bottom: 20px;
+
+    }
+    p{
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        font-weight: bold;
+        
+    }
 
 }
+    .iframe-maps{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
 
 /*---------- HTML CONTACTO-------- */
 .registro-de-contacto{
     display: flex;
-    justify-content: center;
+    justify-content: center center;
     text-align: center;
     flex-direction: column;
     padding: 30px;
     max-width: 600px;
     margin: auto;
+    line-height: 40px;
 }
 .iframe-maps{
     display: flex;
@@ -350,7 +414,7 @@ button:hover{
     text-align: center;
     height: 200px;
     width: 390px;
-    margin-left: 18px;
+   
 
 }
 .info-local{
@@ -370,21 +434,67 @@ button:hover{
 
 
 /*-------- ACCESO CLIENTES ----------- */
-.ingreso-clientes{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+
+
+.form-register{
+    width: 360px;
+    background: #819f83c2;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(36, 95, 40);
+    box-shadow: 7px 13px 37px #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  
+   h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  p {
+    height: 40px;
     text-align: center;
-    align-items: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
 }
-.acceso-clients{
-    h1{
-        text-align: center;
-        margin-top: 30px;
-        padding-bottom: 30px;
-    }
-}
-    
+  
+  .controls {
+    width: 100%;
+    background: #dcdcdc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+
+    .registro {
+    width: 100%;
+    background: #066906;
+    border: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+
+
 /*-------------- FOOTER-------------*/
 
 footer{
@@ -399,6 +509,7 @@ footer .container{
  footer p{
     margin: 0;
     padding: 12px;
+    text-align: center;
     color: rgb(100, 100, 100);
  }
  .botonInicio{
@@ -413,10 +524,11 @@ footer .container{
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    background-color: rgb(214, 190, 153);
+    background-color: #8fb391;
     color: white;
     text-decoration: none;
  }
+
 
 
 /*-------------- @media-queries-------------*/
@@ -473,7 +585,7 @@ footer .container{
             background-position: center center;
             height: 200px;
             width:  180px;
-            margin: auto;
+            margin-top: 10px;
 
     }
     #final .container{
@@ -523,8 +635,8 @@ footer .container{
         justify-content: center;
         flex-direction: row;
         margin: auto;
-        width: 600px;
-        height: 600px;
+        width: 300px;
+        height: 370px;
     }
     //OBRAS
     #desarrollo-inm{
@@ -538,6 +650,9 @@ footer .container{
             margin-top: 30px;
             padding-bottom: 30px;
         }
+    }
+    .sobre-nos{
+        margin-top: 110px;
     }
 }
 
