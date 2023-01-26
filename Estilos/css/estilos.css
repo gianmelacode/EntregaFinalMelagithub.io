@@ -738,4 +738,26 @@ button {
   }
 }
 
+@media (min-width: 980px) {
+  /* line 659, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  .form-contact {
+    margin-top: 120px;
+  }
+  /* line 662, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  .form-register {
+    margin-top: 120px;
+  }
+}
+
+@media (min-width: 720px) {
+  /* line 667, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  .form-contact {
+    margin-top: 150px;
+  }
+  /* line 670, ../PreEntrega1-MELA-Clases sincronicas/PreEntrega1-MELA/Estilos/scss/estilos.scss */
+  .form-register {
+    margin-top: 150px;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
